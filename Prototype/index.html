@@ -1,0 +1,89 @@
+ <!DOCTYPE html>
+ <html>
+ <head>
+ 	<title>Lou Geh Prototype</title>
+ 	<link rel="stylesheet" href="style.css">
+ 	<link rel="preconnect" href="https://fonts.gstatic.com">
+
+ 	<meta name="viewport" content="width =device-width", initial-scale ="1">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;1,400&family=Righteous&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+ </head>
+ <body>
+ 	<section id ="banner">
+ 		<img src="images/logo.svg" class="logo"> 
+ 		<div class="banner-text">
+ 			<h1>The Lou Geh</h1>
+ 			<p>Supermarket</p>
+ 			<div class="banner-btn">
+ 				<a href="manageInventory.html"><span></span>Add Item</a>
+ 				<a href="manageTransaction.html"><span></span>Add Sale</a>
+ 			</div>
+ 			
+ 		</div>
+
+ 	</section>
+
+
+<div id="sidenav" class="sidenav">
+	<nav>
+		<ul>
+			<li>
+				<a href="manageInventory.html" id="manageInventory">
+					<span class="icon"></span>
+					<span class="pageTitle">PRODUCT INVENTORY</span>
+				</a>
+			</li>
+			<li>
+				<a href="manageSupplier.html" id="manageSupplier">SUPPLIER</a>
+			</li>
+			<li>
+				<a href="manageCustomer.html">CUSTOMER</a>
+			</li>
+			<li>
+				<a href="manageTransaction.html">TRANSACTION</a>
+			</li>
+			<li>
+				<a href="manageReport.html">REPORTS</a>
+			</li>
+		</ul>
+
+	</nav>
+</div>
+
+<!--<div id="menuBtn">
+	<img src="images/menu.svg" id="menu">
+	
+</div>
+
+-->
+
+ 
+<script>
+//var menuBtn = document.getElementById("menuBtn")
+var sidenav = document.getElementById("sidenav")
+var menu = document.getElementById("menu")
+var manageInventory = document.getElementById("manageInventory")
+var manageSupplier = document.getElementById("manageSupplier")
+
+//sidenav.style.right = "-250px"
+
+	//menuBtn.onclick = function() {
+	//	if(sidenav.style.right == "-250px"){
+	//		sidenav.style.right = "0";
+	//		menu.src = "images/back.svg";
+	//	}
+	//	else{
+	//		sidenav.style.right = "-250px";
+	//		menu.src = "images/menu.svg"
+	//	}
+	//}
+</script>
+
+
+
+ </body>
+ </html>

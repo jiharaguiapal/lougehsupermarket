@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lou Geh Prototype</title>
+ 	<link rel="stylesheet" href="style.css">
+ 	<link rel="preconnect" href="https://fonts.gstatic.com">
+
+ 	<meta name="viewport" content="width =device-width", initial-scale ="1">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;1,400&family=Righteous&display=swap" rel="stylesheet">
+
+</head>
+<body class="inventorypage">
+	<section >
+ 		<img src="images/logo.svg" class="logo">
+ 		<div class="title">
+ 			<h1>Manage Transactions</h1>
+ 			
+ 			
+ 		</div>
+
+ 	</section>
+ <div class=backButton>
+	<a href="index.html">Back</a>
+
+ </div>
+
+<div class="table-box">
+<div class="table-row1">
+	<div class="table-cell1">
+		<p>Product Number</p>
+	</div>
+	<div class="table-cell1">
+		<p>Quantity</p>
+	</div>
+	<div class="table-cell1">
+		<p>Unit Price</p>
+	</div><div class="table-cell1">
+		<p>Costumer ID</p>
+	</div>
+	<div class="table-cell1">
+		<p>edit</p>
+	</div><div class="table-cell1">
+		<p>delete</p>
+	</div >
+</div>
+
+<div class="table-row">
+	<div class="table-cell">
+		<p>Product Number</p>
+	</div>
+	<div class="table-cell">
+		<p>Quantity</p>
+	</div>
+	<div class="table-cell">
+		<p>Unit Price</p>
+	</div><div class="table-cell">
+		<p>Costumer ID</p>
+	</div>
+	<div class="table-cell">
+		<p>edit</p>
+	</div><div class="table-cell">
+		<p>delete</p>
+	</div >
+</div>
+
+<div class="table-row">
+	<div class="table-cell">
+		<p>Product Number</p>
+	</div>
+	<div class="table-cell">
+		<p>Quantity</p>
+	</div>
+	<div class="table-cell">
+		<p>Unit Price</p>
+	</div><div class="table-cell">
+		<p>Costumer ID</p>
+	</div>
+	<div class="table-cell">
+		<p>edit</p>
+	</div><div class="table-cell">
+		<p>delete</p>
+	</div >
+</div>
+
+<div class="table-row">
+	<div class="table-cell">
+		<p>Product Number</p>
+	</div>
+	<div class="table-cell">
+		<p>Quantity</p>
+	</div>
+	<div class="table-cell">
+		<p>Unit Price</p>
+	</div><div class="table-cell">
+		<p>Costumer ID</p>
+	</div>
+	<div class="table-cell">
+		<p>edit</p>
+	</div><div class="table-cell">
+		<p>delete</p>
+	</div >
+</div>
+
+</div>
+
+<div class="button" id="addButton">
+ 	<a href="#">Add Sale</a>
+ 	
+ 	
+ </div>
+
+ <div class="popup">
+ 	<div class="popup-content">
+ 		<!--<img src="images/box.svg"> -->
+ 		<img src="images/close.svg" class="close">
+ 		<form>
+ 		<label>Product Number:</label>
+ 		<input type="text" placeholder="Enter Item Code">
+ 		<label>Quantity:</label>
+ 		<input type="text" placeholder="Enter Quantity">
+ 		<label>Unit Price:</label>
+ 		<input type="text" placeholder="Enter Cost per Unit">
+ 		<label>Costumer ID:</label>
+ 		<input type="text" placeholder="Enter Supplier">
+ 		<input type="submit" name="submit" value="Submit" id="submit">
+		</form>
+ 	</div>
+ </div>
+
+ 	
+ </div>
+
+ <script >
+ 	document.getElementById("addButton").addEventListener("click", function(){
+ 		document.querySelector(".popup").style.display="flex";
+ 	})
+ 	document.querySelector(".close").addEventListener("click", function(){
+ 		document.querySelector(".popup").style.display = "none";
+ 	})
+ 	document.querySelector("submit").addEventListener("click", function(){
+
+ 	})
+ 	
+ </script>
+
+
+</body>
+</html>
